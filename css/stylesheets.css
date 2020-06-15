@@ -1,0 +1,50 @@
+﻿body, html {
+    background-image: linear-gradient(rgba(240, 230, 140, 0.58), rgba(240, 230, 140, 0.58)),url('qwerty.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #C0C0C0;	
+}	
+
+.divbg {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(255, 222, 173, 0.58);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 24px;
+}
+.msgClass {
+    color: red;
+}
+
+#editDiv {
+    display: none;
+}
+
+.blogText {
+    padding: 5px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.topbutton {
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
+    font-family: verdana;
+    font-size: 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
